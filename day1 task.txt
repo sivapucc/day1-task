@@ -1,0 +1,24 @@
+* DOCUMENT 																* WINDOW
+1.	It represents any HTML document 									1.	It represents a browser window or frame  
+or web page that is loaded in the browser.								that displays the contents of the webpage.		
+
+2. It is loaded inside the window.										2.	It is the very first object that is loaded in the browser.
+
+3.	It is the object of window property.								3.	It is the object of the browser.
+
+4.	All the tags, elements with attributes 								4.	Global objects, functions, and variables of JavaScript are members of the window object.
+in HTML are part of the document.
+
+5. We can access the document from a 									5.	We can access the window from the window only. i.e. window.window
+window using the window. document
+
+6.	The document is part of BOM 										6,	The window is part of BOM, not DOM.
+(browser object model) and dom (Document object model)
+
+7.	Properties of document objects such as								7.	Properties of the window object cannot be accessed by the document object.
+title, body, cookies, etc can also be accessed
+by a window like this window. document.title
+
+8.	syntax: document.propertyname;										8.	syntax: window.propertyname;
+
+
