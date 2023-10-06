@@ -19,6 +19,25 @@ window using the window. document
 title, body, cookies, etc can also be accessed
 by a window like this window. document.title
 
+
+
+ objects:
+* objects is one of the javascript data type;
+* it is used to store various collections of variable in key value pair fomat;
+syntax:
+  let obj = {key:"value"};
+obj ->  user defined name;
+
+example:
+  let student = {
+                  name : "siva",
+                  regno : 26,
+                };
+object value access in two methods
+one is dot method and another one is box method.
+console.log(student.name) --> output: siva
+console.log(sudent[name])--->output: siva
+
 8.	syntax: document.propertyname;										8.	syntax: window.propertyname;
 
 
